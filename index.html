@@ -1,174 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="css/style.css">   
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
- <body>
+
+<body>
     <header>
         <div class="header_div">
-        <p class="logo_all"><span class="logo_web">Web</span>Studio</p>
-                 <ul class="menu_nav">  
+            <p class="logo_all"><span class="logo_web">Web</span>Studio</p>
+            <ul class="menu_nav">
                 <li><a class="header_info" href="#">Студія</a></li>
-                    <li><a class="header_info" href="#">Портфоліо</a></li>
-                      <li><a class="header_info" href="#">Контакти</a></li>
-                    </ul>
-                    <ul class="maf">
-                    <!--Email (must be link) and number-->
-                  <li>
-                        <a class="m_ph" href="mailto:info@example.com" target="_blank">info@example.com</a>
-                    </li>
-                        <li>
-                        <a class="m_ph" href="tel:+380961111111" target="_blank">+380 96 111 11 11</a>
-                    </li>
-                </ul>
-            </div>
-            </header>
+                <li><a class="header_info" href="#">Портфоліо</a></li>
+                <li><a class="header_info" href="#">Контакти</a></li>
+            </ul>
+            <ul class="contacts_nav">
+                <!--Email (must be link) and number-->
+                <li>
+                    <a class="m_ph" href="mailto:info@example.com" target="_blank">
+                        <svg width="16" height="12" class="loho_h">
+                            <use href="./images/sprite.svg#icon-envelope-hover"></use>
+                        </svg>
+                        info@example.com</a>
+                </li>
+                <li class="">
+                    <a class="m_ph" href="tel:+380961111111" target="_blank"> <svg width="16"
+                            height="12">
+                            <use href="./images/sprite.svg#icon-smartphone"></use>
+                        </svg>
+                        +380 96 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <main>
-           <section class="main">
-                    <div class="div_main">
-            <h1 class="main_title">Ефективні рішення для вашого бізнесу</h1>
-                  <button type="submit" name="Замовити послугу" class="main_button">Замовити послугу</button>
-                </div>
-                </section>
-                
-                <ul class="MAIN_EVRTH">
-                <li><section class="Letters">
+        <section class="main">
+            <div class="div_main">
+                <h1 class="main_title">Ефективні рішення для вашого бізнесу</h1>
+                <button type="submit" name="Замовити послугу" class="main_button">Замовити послугу</button>
+            </div>
+        </section>
+
+        <ul class="MAIN_EVRTH">
+            <li>
+                <section class="Letters">
                     <ul class="letters_list">
                         <li class="letter_card">
                             <div class="letters_icon"></div>
+                            <div class="logo_mb" width="270" height="120">
+                                <svg class="main_logo" width="70" height="54">
+                                    <use href="./images/sprite.svg#icon-antenna-1"></use>
+                                </svg>
+                            </div>
                             <h3 class="letter_text">УВАГА ДО ДЕТАЛЕЙ</h3>
-                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deleniti vitae corporis minus commodi nostrum libero maxime dolore numquam earum a eum, reiciendis est ullam hic, debitis ab aut iste.</p>
+                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                deleniti vitae corporis minus commodi nostrum libero maxime dolore numquam earum a eum,
+                                reiciendis est ullam hic, debitis ab aut iste.</p>
                         </li>
                         <li class="letter_card">
                             <div class="letters_icon"></div>
+                            <div class="logo_mb" width="270" height="120">
+                                <svg class="main_logo" width="70" height="54">
+                                    <use href="./images/sprite.svg#icon-astronaut-1"></use>
+                                </svg>
+                            </div>
                             <h3 class="letter_text">ПУНКТУАЛЬНІСТЬ</h3>
-                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni voluptatem iusto accusamus esse doloremque excepturi deserunt quis facilis, doloribus fuga nesciunt similique cupiditate, consectetur sit! Animi distinctio tempore sed!</p>
+                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni
+                                voluptatem iusto accusamus esse doloremque excepturi deserunt quis facilis, doloribus
+                                fuga nesciunt similique cupiditate, consectetur sit! Animi distinctio tempore sed!</p>
                         </li>
                         <li class="letter_card">
                             <div class="letters_icon"></div>
+                            <div class="logo_mb" width="270" height="120">
+                                <svg class="main_logo" width="70" height="54">
+                                    <use href="./images/sprite.svg#icon-clock-1"></use>
+                                </svg>
+                            </div>
                             <h3 class="letter_text">ПЛАНУВАННЯ</h3>
-                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae expedita deserunt minus ab officia, aspernatur accusamus tenetur tempora optio consequuntur fuga veritatis earum tempore voluptates quia, commodi suscipit esse vero?</p>
+                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                expedita deserunt minus ab officia, aspernatur accusamus tenetur tempora optio
+                                consequuntur fuga veritatis earum tempore voluptates quia, commodi suscipit esse vero?
+                            </p>
                         </li>
                         <li class="letter_card">
                             <div class="letters_icon"></div>
+                            <div class="logo_mb" width="270" height="120">
+                                <svg class="main_logo" width="70" height="54">
+                                    <use href="./images/sprite.svg#icon-diagram-1"></use>
+                                </svg>
+                            </div>
                             <h3 class="letter_text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo recusandae, nobis unde, perferendis consequuntur corrupti sapiente modi, beatae explicabo repellendus saepe! Cum esse adipisci inventore corporis, harum vero? Animi!</p>
+                            <p class="letter_lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo
+                                recusandae, nobis unde, perferendis consequuntur corrupti sapiente modi, beatae
+                                explicabo repellendus saepe! Cum esse adipisci inventore corporis, harum vero? Animi!
+                            </p>
                         </li>
-                    </ul> 
-                </li>
-                 <!--Second part of sectiom with list-->
-                  <li>
-                 <section class="wwd">
-                      <div>
-                 <h2 class="wwd_h">Чим ми займаємося</h2>
-                 <ul class="wwd_list">
-                        <li class="wwd_img">
-                            <img src="images/whatwedo/img.png" alt="picture1" width="370" height="294">
-                        </li>
+                    </ul>
+            </li>
+            <!--Second part of sectiom with list-->
+            <li>
+                <section class="wwd">
+                    <div>
+                        <h2 class="wwd_h">Чим ми займаємося</h2>
+                        <ul class="wwd_list">
+                            <li class="wwd_img">
+                                <img src="images/whatwedo/img.png" alt="picture1" width="370" height="294">
+                            </li>
                             <li class="wwd_img">
                                 <img src="images/whatwedo/img2.png" alt="picture2" width="370" height="294">
                             </li>
-                                <li class="wwd_img">
-                                    <img src="images/whatwedo/img3.png" width="370" height="294" alt="picture3">
-                                </li>
-                    </ul>
-                </div>
-                    </section>
-                </li>
+                            <li class="wwd_img">
+                                <img src="images/whatwedo/img3.png" width="370" height="294" alt="picture3">
+                            </li>
+                        </ul>
+                    </div>
                 </section>
-                    </ul>
-                 <!--section with our team and our photo-->
-                  <div class="team">
-                    <h2 class="our_team">Наша команда</h2>
-                    <ul class="team-list">
-                        <li class="card">
-                            <div class="font_card">
-                            <img src="images/Ourteam/ID.jpg" class="card_photo" alt="Product Desigher">
-                            <h4 class="name">Ігор Дем’яненко</h4>
-                            <p class="profession">Product Designer</p>
-                        </div>
-                        </li>
-                        <li class="card">
-                            <div class="font_card">
-                            <img src="images/Ourteam/OR.jpg" class="card_photo" alt="Frontend Developer">
-                            <h4 class="name">Ольга Репіна</h4>
-                            <p class="profession">Frontend Developer</p>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="font_card">
-                            <img src="images/Ourteam/MT.jpg" class="card_photo" alt="Marketing">
-                            <h4 class="name">Микола Тарасов</h4>
-                            <p class="profession">Marketing</p>
-                            </div>
-                        </li>
-                        <li class="card">
-                            <div class="font_card">
-                            <img src="images/Ourteam/MY.jpg" class="card_photo" alt="UI Designer">
-                            <h4 class="name">Михайло Єрмаков</h4>
-                            <p class="profession">UI Designer</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div> 
-                <div class="container">
-                    <h3 class="clients_h3">Постійні клієнти</h3>
-                    <ul class="clients_list">
-                        <li class="clients_item">
+            </li>
+            </section>
+        </ul>
+        <!--section with our team and our photo-->
+        <div class="team">
+            <h2 class="our_team">Наша команда</h2>
+            <ul class="team-list">
+                <li class="card">
+                    <div class="font_card">
+                        <img src="images/Ourteam/ID.jpg" class="card_photo" alt="Product Desigher">
+                        <h4 class="name">Ігор Дем’яненко</h4>
+                        <p class="profession">Product Designer</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="font_card">
+                        <img src="images/Ourteam/OR.jpg" class="card_photo" alt="Frontend Developer">
+                        <h4 class="name">Ольга Репіна</h4>
+                        <p class="profession">Frontend Developer</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="font_card">
+                        <img src="images/Ourteam/MT.jpg" class="card_photo" alt="Marketing">
+                        <h4 class="name">Микола Тарасов</h4>
+                        <p class="profession">Marketing</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="font_card">
+                        <img src="images/Ourteam/MY.jpg" class="card_photo" alt="UI Designer">
+                        <h4 class="name">Михайло Єрмаков</h4>
+                        <p class="profession">UI Designer</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3 class="clients_h3">Постійні клієнти</h3>
+            <ul class="clients_list">
+                <li class="clients_item">
+                    <div class="client_bg" width="170" height="90">
                         <svg class="clients_icon" width="45" height="50">
-                            <use href="img/sprite.svg#icon-logo-1"></use>
+                            <use href="/images/sprite.svg#icon-logo-1"></use>
                         </svg>
-                    </li>
-                    <li class="clients_item">
+                    </div>
+                </li>
+                <li class="clients_item">
+                    <div class="client_bg" width="170" height="90">
                         <svg class="clients_icon" width="45" height="50">
-                            <use href="img/sprite.svg#icon-logo-2"></use>
+                            <use href="./images/sprite.svg#icon-logo-2"></use>
                         </svg>
-                    </li>
-                    <li class="clients_item">
+                    </div>
+                </li>
+                <li class="clients_item">
+                    <div class="client_bg" width="170" height="90">
                         <svg class="clients_icon" width="45" height="50">
-                            <use href="img/sprite.svg#icon-logo-3"></use>
+                            <use href="./images/sprite.svg#icon-logo-3"></use>
                         </svg>
-                    </li>
-                    <li class="clients_item">
+                    </div>
+                </li>
+                <li class="clients_item">
+                    <div class="client_bg" width="170" height="90">
                         <svg class="clients_icon" width="45" height="50">
-                            <use href="img/sprite.svg#icon-logo-4"></use>
+                            <use href="./images/sprite.svg#icon-logo-4"></use>
                         </svg>
-                    </li>
-                    <li class="clients_item">
+                    </div>
+                </li>
+                <li class="clients_item">
+                    <div class="client_bg" width="170" height="90">
                         <svg class="clients_icon" width="45" height="50">
-                            <use href="img/sprite.svg#icon-logo-15"></use>
+                            <use href="./images/sprite.svg#icon-logo-5"></use>
                         </svg>
-                    </li>
-                    <li class="clients_item">
+                    </div>
+                </li>
+                <li class="clients_item">
+                    <div class="client_bg" width="170" height="90">
                         <svg class="clients_icon" width="45" height="50">
-                            <use href="img/sprite.svg#icon-logo-6"></use>
+                            <use href="./images/sprite.svg#icon-logo-6"></use>
                         </svg>
-                    </li>
-                </ul>
-                <li>
-                </div>
+                    </div>
+                </li>
+            </ul>
+            <li>
+        </div>
     </main>
     <footer class="footer">
-            <!--There are information about name,adress,email and number-->
-            <ul class="mainlist_footer">
-                <li><a class="logo_footer" href="#"><span class="logo_web">Web</span>Studio</a></li>
-                <li>
-                    <ul>
-                       <li class="adress">м. Київ, пр-т Лесі Українки, 26</li>
-                       <li class="num_mail"><a class="num_a" href="mailto:info@example.com" target="_blank"><h4 class="num_h">info@example.com</h4></a></li>
-                       <li class="num_mail"><a class="num_a" href="tel:+380991111111" target="_blank"><h4 class="num_h">+380 99 111 11 11</h4></a></li>
-                    </ul>
-                </li>   
-            </ul>
-                <h3 class="footer_h">Приєднуйтесь</h3>
+        <!--There are information about name,adress,email and number-->
+        <ul class="mainlist_footer">
+            <li><a class="logo_footer" href="#"><span class="logo_web">Web</span>Studio</a></li>
+            <li>
+                <ul>
+                    <li class="adress">м. Київ, пр-т Лесі Українки, 26</li>
+                    <li class="num_mail"><a class="num_a" href="mailto:info@example.com" target="_blank">
+                            <h4 class="num_h">info@example.com</h4>
+                        </a></li>
+                    <li class="num_mail"><a class="num_a" href="tel:+380991111111" target="_blank">
+                            <h4 class="num_h">+380 99 111 11 11</h4>
+                        </a></li>
+                </ul>
+            </li>
+        </ul>
+        <h3 class="footer_h">Приєднуйтесь</h3>
     </footer>
 </body>
+
 </html>
